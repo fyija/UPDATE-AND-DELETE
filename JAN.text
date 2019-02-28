@@ -1,0 +1,19 @@
+Jan Edu 
+XI - Lynx
+ComprogB
+02/28/2019
+
+ACTIVITY: UPDATE STATEMENT EXERCISES
+
+1. UPDATE `tbl_employees` SET `lname` = 'Williams' WHERE `employee_id` = 2 ;
+2. UPDATE `tbl_employees` SET `age` = '46' WHERE `employee_id` = 4 ;
+3. UPDATE `tbl_employees` SET `title` = 'Administrative Assistant' WHERE `title` = 'Mr.';
+4. UPDATE `tbl_employees` SET `salary` = '3500' WHERE `salary` <= 30000 ;
+5. UPDATE `tbl_employees` SET `salary` = '33500' WHERE `salary` >= 4500 ;
+6. UPDATE `tbl_employees` SET `title` = 'Programmer III' WHERE `title` = 'Programmer II';
+7. UPDATE `tbl_employees` SET `title` = 'Programmer II' WHERE `title` = 'Programmer';
+
+
+ACTIVITY: DELETE STATEMENT EXERCISES
+1. DELETE FROM `tbl_employees` WHERE `employee_id`= 2;
+2. DELETE FROM `tbl_employees` WHERE `salary` >= 70000;
